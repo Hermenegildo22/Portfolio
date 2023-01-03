@@ -203,3 +203,34 @@ h1.black {
 .portifolioImg{
     padding: 20px;
 }
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+    }
+    #headerImg img {
+        width: 100%;
+        margin: 15px;
+        height: 70px;
+    }
+    p.gray{
+        width: 100%;
+    }
+    #buttonCta {
+        width: 100%;
+        margin: -11px;
+    }
+    #clients{
+        width: 100%;
+    }
+    #services{
+        width: 100%;
+    }
+    .textCenter{
+        width: 100%;
+    }
+    #headerClientText{
+        width: 100%;
+        margin: -6px;
+    }
+}
